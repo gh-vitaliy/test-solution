@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/users_menu_item"
+        android:enabled="true"
+        android:icon="@drawable/users_menu_item_icon"
+        android:title="@string/users" />
+    <item
+        android:id="@+id/about_menu_item"
+        android:enabled="true"
+        android:icon="@drawable/about_menu_item_icon"
+        android:title="@string/users" />
+</menu>
