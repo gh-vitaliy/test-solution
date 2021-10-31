@@ -5,26 +5,24 @@
 
         <variable
             name="viewModel"
-            type="com.og.rentatestapp.view_model.UserViewModel" />
+            type="com.og.testapp.view_model.UserViewModel" />
     </data>
-
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="@{()->viewModel.onUserItemClick()}"
         android:orientation="vertical"
         android:padding="5dp">
 
         <TextView
             android:id="@+id/first_name_text_view"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@{viewModel.firstName}" />
 
         <TextView
             android:id="@+id/last_name_text_view"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@{viewModel.lastName}" />
 
